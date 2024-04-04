@@ -3,6 +3,7 @@ package org.arep;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import static spark.Spark.*;
 public class MathService {
@@ -31,10 +32,10 @@ public class MathService {
 
     public static int linearSeacrh(String lista, String value){
         int respuesta = -1;
-        lista=lista.replace(" [","").replace("]","");
-        String[] list = lista.split(",");
-        for(int i = 0; i < list.length; i++){
-            if(list[i] == value){
+        lista=lista.replace("[","").replace("]","");
+        List<String> list = new ArrayList<String>(Arrays.asList(lista.split(",")));
+        for(int i = 0; i < list.size(); i++){
+            if(list.get(i).equals(value)){
                 respuesta = Integer.parseInt(String.valueOf(i));
             }
         }
