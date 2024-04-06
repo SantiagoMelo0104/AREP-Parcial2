@@ -57,7 +57,6 @@ http://localhost:4569/index.html
 
 
 ## AWS 
-+ Instancias:
 + Vamos a correr desde la página de aws para esto se elige la instacia a conectarse:
 Abrir en el navegador y colocar el path lo siguiente:
 + Vamos a instalar java,maven y git para poder correr el proyecto:
