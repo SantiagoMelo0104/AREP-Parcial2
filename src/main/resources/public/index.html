@@ -7,13 +7,22 @@
 </head>
 <body>
     <h1>Linear Search</h1>
-    <form action="/list">
+    <form action="/linear">
         <label for="list1">Name:</label><br>
         <input type="text" id="list1" name="name" value=""><br><br>
         <input type="text" id="val1" name="name" value=""><br><br>
         <input type="button" value="Submit" onclick="searchLinear(list1,val1)">
-    </form>
-    <div id="answer"></div>
+    </form><br>
+    <div id="answer1"></div>
+
+    <h1>Bynary Search</h1>
+    <form action="/listb">
+        <label for="listb">Name:</label><br>
+        <input type="text" id="listb" name="name" value=""><br><br>
+        <input type="text" id="valb" name="name" value=""><br><br>
+        <input type="button" value="Submit" onclick="searchBinary(listb,valb)">
+    </form><br>
+    <div id="answer2"></div>
 
     <script>
         function searchLinear(list1,val1) {
@@ -21,10 +30,23 @@
             let nameVar2 = document.getElementById("val1").value;
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
-                document.getElementById("answer").innerHTML =
+                document.getElementById("answer1").innerHTML =
                 this.responseText;
             }
-            xhttp.open("GET", "/list?list="+ nameVar1 + "&value=" + nameVar2);
+            xhttp.open("GET", "/linear?list="+ nameVar1 + "&value=" + nameVar2);
+            xhttp.send();
+        }
+    </script>
+    <script>
+        function searchBinary(listb,valb) {
+            let nameVar1 = document.getElementById("listb").value;
+            let nameVar2 = document.getElementById("valb").value;
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                document.getElementById("answer2").innerHTML =
+                    this.responseText;
+            }
+            xhttp.open("GET", "/binary?list="+ nameVar1 + "&value=" + nameVar2);
             xhttp.send();
         }
     </script>
