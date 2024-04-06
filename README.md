@@ -1,5 +1,5 @@
 # Parcial Segundo Corte De Arep
-en este parcial, se tiene que diseñe un sistema de microservicios que cumpla con los requisitos mencionados. El sistema constará de un servicio de ordenamiento, 
+En este parcial, se tiene que diseñe un sistema de microservicios que cumpla con los requisitos mencionados. El sistema constará de un servicio de ordenamiento, 
 un service proxy y un cliente Web. El servicio de ordenamiento será responsable de computar las funciones de ordenamiento y será desplegado en al menos dos instancias 
 virtuales de EC2. El service proxy será responsable de recibir las solicitudes de llamado desde los clientes y delegarlas a las dos instancias del servicio de ordenamiento 
 usando un algoritmo de round-robin.El proxy será desplegado en otra máquina EC2. 
@@ -26,7 +26,7 @@ El proyecto tiene las siguientes clases:
 
 * Los siguiente comando le permitira clonar el repositorio de manera local:
   ~~~
-  https://github.com/SantiagoMelo0104/AREP-Parcial2.git
+  git clone https://github.com/SantiagoMelo0104/AREP-Parcial2.git
   ~~~
 * Entrar al directorio del proyecto con el siguiente comando:
    ~~~
@@ -52,6 +52,9 @@ Abrir en el navegador y colocar el path lo siguiente:
 ~~~
 http://localhost:4569/index.html
 ~~~
+![image](https://github.com/SantiagoMelo0104/AREP-Parcial2/assets/123812833/ab80912c-f7ef-4999-9b77-a363d97c3538)
+![image](https://github.com/SantiagoMelo0104/AREP-Parcial2/assets/123812833/689812cf-aabc-42c6-83fb-bb7478dfe9b9)
+
 
 ## AWS 
 + Instancias:
