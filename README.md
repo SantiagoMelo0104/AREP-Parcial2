@@ -71,7 +71,7 @@ Abrir en el navegador y colocar el path lo siguiente:
   ~~~
 + Ahora vamos a clonar el repositorio con el siguiente comando:
   ~~~
-  https://github.com/SantiagoMelo0104/AREP-Parcial2.git
+  git clone https://github.com/SantiagoMelo0104/AREP-Parcial2.git
   ~~~
 * Entrar al directorio del proyecto con el siguiente comando:
    ~~~
