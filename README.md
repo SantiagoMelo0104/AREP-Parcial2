@@ -95,9 +95,8 @@ Abrir en el navegador y colocar el path lo siguiente:
 # Pruebas 
 ## AWS
 Abrir en el navegador y colocar el path lo siguiente: 
-~~~
-http://localhost:4569/index.html
-~~~
+![imagen](https://github.com/SantiagoMelo0104/AREP-Parcial2/assets/123812833/f53fff39-79d0-4fda-92b1-710ddacb4ef1)
+
 
 # Autor 
 Santiago Naranjo Melo [SantiagoMelo0104](https://github.com/SantiagoMelo0104)
