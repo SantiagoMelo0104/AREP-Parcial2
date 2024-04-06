@@ -97,6 +97,6 @@ Abrir en el navegador y colocar el path lo siguiente:
 Abrir en el navegador y colocar el path lo siguiente: 
 ![imagen](https://github.com/SantiagoMelo0104/AREP-Parcial2/assets/123812833/f53fff39-79d0-4fda-92b1-710ddacb4ef1)
 
-
+video: https://youtu.be/Shon9lcPYD4 
 # Autor 
 Santiago Naranjo Melo [SantiagoMelo0104](https://github.com/SantiagoMelo0104)
