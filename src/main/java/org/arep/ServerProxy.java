@@ -7,7 +7,7 @@ import java.util.List;
 import static spark.Spark.*;
 
 public class ServerProxy {
-    private static final List<String> SERVERS = new ArrayList<>(Arrays.asList("http://localhost:4567/", "http://localhost:4567/"));
+    private static final List<String> SERVERS = new ArrayList<>(Arrays.asList("http://3.80.69.181:4567/", "http://54.221.15.221:4567/"));
     private static int INDEX_SERVER = 0;
 
     public static void main(String... args) {
